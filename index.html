@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Game</title>
+    <link rel="stylesheet" href='main.css'>
+    <script src="https://use.fontawesome.com/8e10f7ce4e.js"></script>
+</head>
+<body>
+<form id='form' class="webflow-style-input">
+    <input type="text" placeholder="Answer...">
+    <button type="submit"> <i class="fa fa-lg fa-check-square-o"></i> </button>
+</form>
+<div class="content">
+    <div id="root"></div>
+    <ul class="statistic">
+        <li id="score">Score: 0</li>
+    </ul>
+</div>
+<script src="store.js" type="module"></script>
+<script src="utils.js" type="module"></script>
+<script src="main.js" type="module"></script>
+</body>
+</html>
